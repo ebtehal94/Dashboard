@@ -84,9 +84,55 @@
           <!-- End Head -->
           <h1 class="p-relative">Dashboard</h1>
           <div class="wrapper d-grid gap-20">
+            <!-- Start Welcom Widget -->
             <div class="welcome bg-white rad-10 text-c-mobile block-mobile">
-              <h2>Welcome</h2>
+              <div class="intro p-20 d-flex space-between bg-eee">
+                <div>
+                  <h2 class="m-0">welcome</h2>
+                  <p class="c-grey mt-5">Elzero</p>
+                </div>
+                <img class="hide-mobile" src="imgs/welcome.png" alt="">
+              </div>
+              <img src="imgs/avatar.png" alt="" class="avatar">
+              <div class="body text-c d-flex p-20 mt-20 mb-20 block-mobile">
+                <div>Osama Elzero<span class="d-block c-grey fs-14 mt-10">Developer</span></div>
+                <div>80<span class="d-block c-grey fs-14 mt-10">Projects</span></div>
+                <div>$8500<span class="d-block c-grey fs-14 mt-10">Earned</span></div>
+              </div>
+              <a href="profile.html" class="visit d-block fs-14 rad-6 bg-blue c-white w-fit btn-shape">Profile</a>
             </div>
+            <!-- End Welcome Widget -->
+            <!-- Start Quick Draft Widget -->
+            <div class="quick-draft p-20 bg-white rad-10">
+              <h2 class="mt-0 mb-10">Quick Draft</h2>
+              <p class="mt-0 mb-20 c-grey fs-15">Write A Draft For Your Ideas</p>
+              <form>
+                <input class="d-block mb-20 w-full p-10 b-none bg-eee rad-6" type="text" placeholder="Title">
+                <textarea class="d-block mb-20 w-full p-10 b-none bg-eee rad-6" placeholder="Your Thought"></textarea>
+                <input class="save d-block fs-14 bg-blue c-white b-none w-fit btn-shape" type="submit" value="Save">
+              </form>
+            </div>
+            <!-- End Quick Draft Widget -->
+            <!-- Start Target -->
+            <div class="targets p-20 bg-white rad-10">
+              <h2 class="mt-0 mb-10">Yearly Targets</h2>
+              <p class="mt-0 mb-20 c-grey fs-15">Targets Of The Year</p>
+              <div class="target-row mb-20 blue center-flex">
+                <div class="icon center-flex">
+                  <i class="fa-solid fa-dollar-sign fa-lg c-blue"></i>
+                  <div class="details">
+                    <span class="fs-14 c-grey">Money</span>
+                    <span class="d-block mt-5 mb-10 fw-bold">$20.000</span>
+                    <div class="progress p-relative">
+                      <span class="bg-blue blue" style="width: 40%">
+                        <span class="bg-blue">40%</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>,
+            <!-- End Target -->
           </div>
         </div>
     </div>
